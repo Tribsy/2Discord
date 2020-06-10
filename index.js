@@ -4,11 +4,11 @@ const { Client, MessageEmbed } = require('discord.js');
 const client = new Client();
 const ms = require("ms");
 client.on('ready', () => {
-  console.log('sex plz');
+  console.log('Bot online!');
   client.user.setActivity(`watching porn`)
 });
 
-const PREFIX = '.';
+const PREFIX = '!';
 
 client.on('message', message => {
   
